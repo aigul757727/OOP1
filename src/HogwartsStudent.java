@@ -8,7 +8,6 @@ public abstract class HogwartsStudent {
         this.magic = magic;
         this.transgression = transgression;
     }
-
     public String getName() {
         return name;
     }
