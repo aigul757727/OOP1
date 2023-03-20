@@ -4,7 +4,6 @@ public class SlytherinStudent extends HogwartsStudent {
     private int ambition;
     private int ingenuity;
     private int thirstForPower;
-
     public SlytherinStudent(String name, int magic, int transgression, int cunning, int determinatin, int ambition,
                             int ingenuity, int thirstForPower) {
         super(name, magic, transgression);
@@ -57,7 +56,6 @@ public class SlytherinStudent extends HogwartsStudent {
                     getName(), ability1, ability2);
         }
     }
-
     @Override
     public String toString() {
         return String.format("%s; хитрость: %d;решительность: %d;амбициозность: %d;находчивость: %d;жажда власти: %d",

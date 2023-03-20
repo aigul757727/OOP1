@@ -9,7 +9,6 @@ public class GriffindorStudent extends HogwartsStudent {
         this.honar = honar;
         this.bravery = bravery;
     }
-
     public int getNobility() {
         return nobility;
     }

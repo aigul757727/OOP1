@@ -8,7 +8,6 @@ public class Main {
         RavenclawStudent luna = generateRavenclawStudent("Полумна Лавгурд");
         SlytherinStudent draco = generateSlytherinStudent("Драко Малфой");
         HufflepuffStudent cedric = generateHufflepuffStudent ("Драко Малфой");
-
         harry.print();
         ron.print();
         luna.print();
